@@ -1,0 +1,14 @@
+<view class="pyg_index">
+<SeacherInput></SeacherInput>
+<view class="index_swiper">
+   <swiper autoplay="{{true}}" indicator-active-color="#000000" indicator-dots="{{true}}">
+    <swiper-item wx:for="{{swiperList}}"
+    wx:key="goods_id">
+    <navigator>
+       <image mode="widthFix" src="{{item.image_src}}" ></image>
+    </navigator>
+    </swiper-item>
+   </swiper> 
+</view>
+</view>
+<!--轮播图-->

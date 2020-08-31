@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "SeacherInput":"../../components/Seacher/SeacherInput"
+  },
+  "navigationBarTitleText": "一点一滴婚庆公司"
+}
